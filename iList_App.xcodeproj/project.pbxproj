@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2C2CEA362A3B48A8983C0BFC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4226E4982705489883ECCD6A /* libPods.a */; };
+		F408115C187DADAE0035694B /* CostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F408115A187DADAE0035694B /* CostViewController.m */; };
+		F408115D187DADAE0035694B /* CostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F408115B187DADAE0035694B /* CostViewController.xib */; };
+		F4081169187DB71B0035694B /* development.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F408115F187DB71B0035694B /* development.sqlite3 */; };
+		F408116A187DB71B0035694B /* dly@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081160187DB71B0035694B /* dly@2x.png */; };
+		F408116B187DB71B0035694B /* fs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081161187DB71B0035694B /* fs@2x.png */; };
+		F408116C187DB71B0035694B /* lr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081162187DB71B0035694B /* lr@2x.png */; };
+		F408116D187DB71B0035694B /* ms@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081163187DB71B0035694B /* ms@2x.png */; };
+		F408116E187DB71B0035694B /* qxz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081164187DB71B0035694B /* qxz@2x.png */; };
+		F408116F187DB71B0035694B /* sm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081165187DB71B0035694B /* sm@2x.png */; };
+		F4081170187DB71B0035694B /* sqs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081166187DB71B0035694B /* sqs@2x.png */; };
+		F4081171187DB71B0035694B /* ss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081167187DB71B0035694B /* ss@2x.png */; };
+		F4081172187DB71B0035694B /* zs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081168187DB71B0035694B /* zs@2x.png */; };
+		F4081174187DBD000035694B /* navbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4081173187DBD000035694B /* navbar_bg@2x.png */; };
 		F442F7A7187C5C9D005B6EC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F442F7A6187C5C9D005B6EC3 /* Foundation.framework */; };
 		F442F7A9187C5C9D005B6EC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F442F7A8187C5C9D005B6EC3 /* CoreGraphics.framework */; };
 		F442F7AB187C5C9D005B6EC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F442F7AA187C5C9D005B6EC3 /* UIKit.framework */; };
@@ -37,6 +50,20 @@
 
 /* Begin PBXFileReference section */
 		4226E4982705489883ECCD6A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4081159187DADAE0035694B /* CostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostViewController.h; sourceTree = "<group>"; };
+		F408115A187DADAE0035694B /* CostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostViewController.m; sourceTree = "<group>"; };
+		F408115B187DADAE0035694B /* CostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CostViewController.xib; sourceTree = "<group>"; };
+		F408115F187DB71B0035694B /* development.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = development.sqlite3; sourceTree = "<group>"; };
+		F4081160187DB71B0035694B /* dly@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dly@2x.png"; sourceTree = "<group>"; };
+		F4081161187DB71B0035694B /* fs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fs@2x.png"; sourceTree = "<group>"; };
+		F4081162187DB71B0035694B /* lr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lr@2x.png"; sourceTree = "<group>"; };
+		F4081163187DB71B0035694B /* ms@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms@2x.png"; sourceTree = "<group>"; };
+		F4081164187DB71B0035694B /* qxz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qxz@2x.png"; sourceTree = "<group>"; };
+		F4081165187DB71B0035694B /* sm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sm@2x.png"; sourceTree = "<group>"; };
+		F4081166187DB71B0035694B /* sqs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sqs@2x.png"; sourceTree = "<group>"; };
+		F4081167187DB71B0035694B /* ss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ss@2x.png"; sourceTree = "<group>"; };
+		F4081168187DB71B0035694B /* zs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zs@2x.png"; sourceTree = "<group>"; };
+		F4081173187DBD000035694B /* navbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_bg@2x.png"; sourceTree = "<group>"; };
 		F442F7A3187C5C9D005B6EC3 /* iList_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iList_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F442F7A6187C5C9D005B6EC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F442F7A8187C5C9D005B6EC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,10 +112,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F408115E187DB71B0035694B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F408115F187DB71B0035694B /* development.sqlite3 */,
+				F4081173187DBD000035694B /* navbar_bg@2x.png */,
+				F4081160187DB71B0035694B /* dly@2x.png */,
+				F4081161187DB71B0035694B /* fs@2x.png */,
+				F4081162187DB71B0035694B /* lr@2x.png */,
+				F4081163187DB71B0035694B /* ms@2x.png */,
+				F4081164187DB71B0035694B /* qxz@2x.png */,
+				F4081165187DB71B0035694B /* sm@2x.png */,
+				F4081166187DB71B0035694B /* sqs@2x.png */,
+				F4081167187DB71B0035694B /* ss@2x.png */,
+				F4081168187DB71B0035694B /* zs@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F442F79A187C5C9D005B6EC3 = {
 			isa = PBXGroup;
 			children = (
 				F442F7AC187C5C9D005B6EC3 /* iList_App */,
+				F408115E187DB71B0035694B /* Resources */,
 				F442F7CE187C5C9D005B6EC3 /* iList_AppTests */,
 				F442F7A5187C5C9D005B6EC3 /* Frameworks */,
 				F442F7A4187C5C9D005B6EC3 /* Products */,
@@ -126,6 +172,9 @@
 				F442F7BF187C5C9D005B6EC3 /* ZHViewController.m */,
 				F442F7DE187C5F7B005B6EC3 /* ADViewController_iPhone.xib */,
 				F442F7E0187C5F8A005B6EC3 /* ADViewController_iPad.xib */,
+				F4081159187DADAE0035694B /* CostViewController.h */,
+				F408115A187DADAE0035694B /* CostViewController.m */,
+				F408115B187DADAE0035694B /* CostViewController.xib */,
 				F442F7C1187C5C9D005B6EC3 /* Images.xcassets */,
 				F442F7AD187C5C9D005B6EC3 /* Supporting Files */,
 			);
@@ -241,9 +290,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F442F7DF187C5F7B005B6EC3 /* ADViewController_iPhone.xib in Resources */,
+				F408116A187DB71B0035694B /* dly@2x.png in Resources */,
+				F408115D187DADAE0035694B /* CostViewController.xib in Resources */,
 				F442F7C2187C5C9D005B6EC3 /* Images.xcassets in Resources */,
+				F408116C187DB71B0035694B /* lr@2x.png in Resources */,
+				F4081169187DB71B0035694B /* development.sqlite3 in Resources */,
+				F4081171187DB71B0035694B /* ss@2x.png in Resources */,
+				F4081172187DB71B0035694B /* zs@2x.png in Resources */,
 				F442F7B1187C5C9D005B6EC3 /* InfoPlist.strings in Resources */,
 				F442F7E1187C5F8A005B6EC3 /* ADViewController_iPad.xib in Resources */,
+				F408116D187DB71B0035694B /* ms@2x.png in Resources */,
+				F408116B187DB71B0035694B /* fs@2x.png in Resources */,
+				F408116F187DB71B0035694B /* sm@2x.png in Resources */,
+				F408116E187DB71B0035694B /* qxz@2x.png in Resources */,
+				F4081170187DB71B0035694B /* sqs@2x.png in Resources */,
+				F4081174187DBD000035694B /* navbar_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +359,7 @@
 				F442F7C0187C5C9D005B6EC3 /* ZHViewController.m in Sources */,
 				F442F7B7187C5C9D005B6EC3 /* ZHAppDelegate.m in Sources */,
 				F442F7B3187C5C9D005B6EC3 /* main.m in Sources */,
+				F408115C187DADAE0035694B /* CostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +484,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iList_App/iList_App-Prefix.pch";
 				INFOPLIST_FILE = "iList_App/iList_App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -436,6 +499,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iList_App/iList_App-Prefix.pch";
 				INFOPLIST_FILE = "iList_App/iList_App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

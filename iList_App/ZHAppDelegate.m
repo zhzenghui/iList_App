@@ -13,14 +13,28 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
+    
+
+
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         self.viewController = [[ZHViewController alloc] initWithNibName:@"ADViewController_iPhone" bundle:nil];
     } else {
         self.viewController = [[ZHViewController alloc] initWithNibName:@"ADViewController_iPad" bundle:nil];
     }
-    self.window.rootViewController = self.viewController;
+    
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    nav.navigationBar.barTintColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"navbar_bg"]];
+
+
+    
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 

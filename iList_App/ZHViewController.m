@@ -7,6 +7,8 @@
 //
 
 #import "ZHViewController.h"
+#import "CostViewController.h"
+
 
 @interface ZHViewController ()
 
@@ -26,4 +28,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)openViewController:(id)sender {
+    UIButton *button = (UIButton *)sender;
+    UIViewController *vc;
+    switch (button.tag) {
+            case KCostTag:
+            vc = [[CostViewController alloc] initWithNibName:@"CostViewController" bundle:nil];
+            break;
+            
+        default:
+            break;
+    }
+    
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
 @end

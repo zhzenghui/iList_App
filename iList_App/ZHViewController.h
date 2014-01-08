@@ -6,8 +6,17 @@
 //  Copyright (c) 2014 zeng hui. All rights reserved.
 //
 
+#define KCostTag 111
+#define KTargetTag 112
+#define KImportantEventsTag 113
+#define KDialyTag 114
+#define KHealthyHabits 115
+
 #import <UIKit/UIKit.h>
 
 @interface ZHViewController : UIViewController
+
+- (IBAction)openViewController:(id)sender;
+
 
 @end
